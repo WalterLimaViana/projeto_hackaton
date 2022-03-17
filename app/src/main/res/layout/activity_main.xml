@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="326dp"
+        android:layout_height="145dp"
+        android:layout_marginBottom="464dp"
+        android:background="@color/branco"
+        android:gravity="center"
+        android:text="À sua Agência Virtual da Sanepar!  Estes sãos os serviços disponíveis para a sua instalação:"
+        android:textColor="@color/azulEscuro"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="327dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="160dp"
+        android:background="@color/branco"
+        android:gravity="center"
+        android:text="BEM VINDO (A)"
+        android:textColor="@color/azulEscuro"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:background="@color/branco"
+        android:text="Fatura Digital"
+        android:textColor="@color/azulEscuro"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:background="@color/branco"
+        android:text="Vencimento Alternativo"
+        android:textColor="@color/azulEscuro"
+        app:layout_constraintBottom_toBottomOf="@+id/button10"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:background="@color/branco"
+        android:text="Pontos por denúncias"
+        android:textColor="@color/azulEscuro"
+        app:layout_constraintBottom_toBottomOf="@+id/button12"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:background="@color/branco"
+        android:text="Segunda Via"
+        android:textColor="@color/azulEscuro"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/branco"
+        android:text="Chat Bot"
+        android:textColor="@color/azulEscuro"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="142dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="105dp"
+        android:background="@color/branco"
+        android:text="Nossas Avaliações"
+        android:textColor="@color/azulEscuro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="96dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:background="@color/branco"
+        android:text="Abastecimento"
+        android:textColor="@color/azulEscuro"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/branco"
+        android:text="Consumo"
+        android:textColor="@color/azulEscuro"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="92dp"
+        android:background="@color/branco"
+        android:text="Pagamentos"
+        android:textColor="@color/azulEscuro"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button8" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
